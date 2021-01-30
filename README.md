@@ -1,4 +1,4 @@
-# LinkedIn Clone developed using React JS and Firebase
+# Linked Clone using React JS, Material UI and Firebase
 
 
 <div>
