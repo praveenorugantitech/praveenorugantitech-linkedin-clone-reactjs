@@ -20,7 +20,7 @@ function Feed() {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        db.collection("posts")
+        db.collection("linkedin-posts")
             .orderBy("timestamp", "desc")
             .onSnapshot((snapshot) =>
                 setPosts(
@@ -34,7 +34,7 @@ function Feed() {
 
     const sendPost = (e) => {
         e.preventDefault();
-        db.collection("posts").add({
+        db.collection("linkedin-posts").add({
             name: user.displayName,
             description: user.email,
             message: input,
