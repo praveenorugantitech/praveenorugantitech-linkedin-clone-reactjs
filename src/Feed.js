@@ -7,7 +7,7 @@ import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
 import EventNoteIcon from "@material-ui/icons/EventNote";
 import CalendarViewDayIcon from "@material-ui/icons/CalendarViewDay";
 import Post from "./Post.js"
-import { db } from './firebase';
+import { db } from './config/firebase';
 import firebase from "firebase";
 import { useSelector } from 'react-redux';
 import { selectUser } from './features/userSlice';

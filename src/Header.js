@@ -8,7 +8,7 @@ import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ChatIcon from '@material-ui/icons/Chat';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import { useDispatch } from 'react-redux';
-import { auth } from './firebase';
+import { auth } from './config/firebase';
 import { logout } from './features/userSlice';
 
 function Header() {
